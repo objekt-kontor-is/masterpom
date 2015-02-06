@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>de.objektkontor</groupId>
+	<groupId>de.objekt-kontor</groupId>
 	<artifactId>master-pom</artifactId>
 	<version>1</version>
 	<packaging>pom</packaging>
@@ -19,11 +19,6 @@
 		<felix.version>4.6.0</felix.version>
 		<netty.version>4.0.25.Final</netty.version>
 	</properties>
-
-	<modules>
-		<module>config</module>
-		<module>wsc</module>
-	</modules>
 
 	<dependencyManagement>
 		<dependencies>
