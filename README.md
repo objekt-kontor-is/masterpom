@@ -1,1 +1,1 @@
-# Master pom
+Common master pom for projects
